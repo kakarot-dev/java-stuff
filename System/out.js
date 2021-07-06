@@ -5,7 +5,10 @@ go on changing from js to java so i made it ez
 
 class out {
     static println(value) {
-        return console.log(value)
+        return console.log(value + '\n')
+    }
+    static print(value) {
+        console.log(value)
     }
 }
 

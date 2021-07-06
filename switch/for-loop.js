@@ -22,4 +22,4 @@ class Main {
 
 const mainprototype = new Main();
 
-mainprototype.table(123456787654321)
+mainprototype.table(6)
