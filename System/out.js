@@ -4,9 +4,9 @@ go on changing from js to java so i made it ez
 */
 
 class out {
-    println(value) {
+    static println(value) {
         return console.log(value)
     }
 }
 
-module.exports.out = new out()
+module.exports.out = out
